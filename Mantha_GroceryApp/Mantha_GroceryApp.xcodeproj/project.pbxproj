@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D44CD73027FC91C000C09F5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44CD72F27FC91C000C09F5E /* AppDelegate.swift */; };
+		D44CD73227FC91C000C09F5E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44CD73127FC91C000C09F5E /* SceneDelegate.swift */; };
+		D44CD73427FC91C000C09F5E /* GrocerySectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44CD73327FC91C000C09F5E /* GrocerySectionsViewController.swift */; };
+		D44CD73727FC91C000C09F5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44CD73527FC91C000C09F5E /* Main.storyboard */; };
+		D44CD73927FC91C200C09F5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D44CD73827FC91C200C09F5E /* Assets.xcassets */; };
+		D44CD73C27FC91C200C09F5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44CD73A27FC91C200C09F5E /* LaunchScreen.storyboard */; };
+		D44CD74727FC91C300C09F5E /* Mantha_GroceryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44CD74627FC91C300C09F5E /* Mantha_GroceryAppTests.swift */; };
+		D44CD75127FC91C300C09F5E /* Mantha_GroceryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44CD75027FC91C300C09F5E /* Mantha_GroceryAppUITests.swift */; };
+		D44CD75327FC91C300C09F5E /* Mantha_GroceryAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44CD75227FC91C300C09F5E /* Mantha_GroceryAppUITestsLaunchTests.swift */; };
+		D44CD76027FC95DF00C09F5E /* GroceryItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44CD75F27FC95DF00C09F5E /* GroceryItemsViewController.swift */; };
+		D44CD76227FC99BF00C09F5E /* itemInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44CD76127FC99BF00C09F5E /* itemInfoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D44CD74327FC91C300C09F5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D44CD72427FC91C000C09F5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D44CD72B27FC91C000C09F5E;
+			remoteInfo = Mantha_GroceryApp;
+		};
+		D44CD74D27FC91C300C09F5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D44CD72427FC91C000C09F5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D44CD72B27FC91C000C09F5E;
+			remoteInfo = Mantha_GroceryApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D44CD72C27FC91C000C09F5E /* Mantha_GroceryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mantha_GroceryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D44CD72F27FC91C000C09F5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D44CD73127FC91C000C09F5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D44CD73327FC91C000C09F5E /* GrocerySectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrocerySectionsViewController.swift; sourceTree = "<group>"; };
+		D44CD73627FC91C000C09F5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D44CD73827FC91C200C09F5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D44CD73B27FC91C200C09F5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D44CD73D27FC91C200C09F5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D44CD74227FC91C300C09F5E /* Mantha_GroceryAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mantha_GroceryAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D44CD74627FC91C300C09F5E /* Mantha_GroceryAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mantha_GroceryAppTests.swift; sourceTree = "<group>"; };
+		D44CD74C27FC91C300C09F5E /* Mantha_GroceryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mantha_GroceryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D44CD75027FC91C300C09F5E /* Mantha_GroceryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mantha_GroceryAppUITests.swift; sourceTree = "<group>"; };
+		D44CD75227FC91C300C09F5E /* Mantha_GroceryAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mantha_GroceryAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D44CD75F27FC95DF00C09F5E /* GroceryItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItemsViewController.swift; sourceTree = "<group>"; };
+		D44CD76127FC99BF00C09F5E /* itemInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemInfoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D44CD72927FC91C000C09F5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D44CD73F27FC91C300C09F5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D44CD74927FC91C300C09F5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D44CD72327FC91C000C09F5E = {
+			isa = PBXGroup;
+			children = (
+				D44CD76127FC99BF00C09F5E /* itemInfoViewController.swift */,
+				D44CD75F27FC95DF00C09F5E /* GroceryItemsViewController.swift */,
+				D44CD72E27FC91C000C09F5E /* Mantha_GroceryApp */,
+				D44CD74527FC91C300C09F5E /* Mantha_GroceryAppTests */,
+				D44CD74F27FC91C300C09F5E /* Mantha_GroceryAppUITests */,
+				D44CD72D27FC91C000C09F5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D44CD72D27FC91C000C09F5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D44CD72C27FC91C000C09F5E /* Mantha_GroceryApp.app */,
+				D44CD74227FC91C300C09F5E /* Mantha_GroceryAppTests.xctest */,
+				D44CD74C27FC91C300C09F5E /* Mantha_GroceryAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D44CD72E27FC91C000C09F5E /* Mantha_GroceryApp */ = {
+			isa = PBXGroup;
+			children = (
+				D44CD72F27FC91C000C09F5E /* AppDelegate.swift */,
+				D44CD73127FC91C000C09F5E /* SceneDelegate.swift */,
+				D44CD73327FC91C000C09F5E /* GrocerySectionsViewController.swift */,
+				D44CD73527FC91C000C09F5E /* Main.storyboard */,
+				D44CD73827FC91C200C09F5E /* Assets.xcassets */,
+				D44CD73A27FC91C200C09F5E /* LaunchScreen.storyboard */,
+				D44CD73D27FC91C200C09F5E /* Info.plist */,
+			);
+			path = Mantha_GroceryApp;
+			sourceTree = "<group>";
+		};
+		D44CD74527FC91C300C09F5E /* Mantha_GroceryAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D44CD74627FC91C300C09F5E /* Mantha_GroceryAppTests.swift */,
+			);
+			path = Mantha_GroceryAppTests;
+			sourceTree = "<group>";
+		};
+		D44CD74F27FC91C300C09F5E /* Mantha_GroceryAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D44CD75027FC91C300C09F5E /* Mantha_GroceryAppUITests.swift */,
+				D44CD75227FC91C300C09F5E /* Mantha_GroceryAppUITestsLaunchTests.swift */,
+			);
+			path = Mantha_GroceryAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D44CD72B27FC91C000C09F5E /* Mantha_GroceryApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D44CD75627FC91C300C09F5E /* Build configuration list for PBXNativeTarget "Mantha_GroceryApp" */;
+			buildPhases = (
+				D44CD72827FC91C000C09F5E /* Sources */,
+				D44CD72927FC91C000C09F5E /* Frameworks */,
+				D44CD72A27FC91C000C09F5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mantha_GroceryApp;
+			productName = Mantha_GroceryApp;
+			productReference = D44CD72C27FC91C000C09F5E /* Mantha_GroceryApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D44CD74127FC91C300C09F5E /* Mantha_GroceryAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D44CD75927FC91C300C09F5E /* Build configuration list for PBXNativeTarget "Mantha_GroceryAppTests" */;
+			buildPhases = (
+				D44CD73E27FC91C300C09F5E /* Sources */,
+				D44CD73F27FC91C300C09F5E /* Frameworks */,
+				D44CD74027FC91C300C09F5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D44CD74427FC91C300C09F5E /* PBXTargetDependency */,
+			);
+			name = Mantha_GroceryAppTests;
+			productName = Mantha_GroceryAppTests;
+			productReference = D44CD74227FC91C300C09F5E /* Mantha_GroceryAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D44CD74B27FC91C300C09F5E /* Mantha_GroceryAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D44CD75C27FC91C300C09F5E /* Build configuration list for PBXNativeTarget "Mantha_GroceryAppUITests" */;
+			buildPhases = (
+				D44CD74827FC91C300C09F5E /* Sources */,
+				D44CD74927FC91C300C09F5E /* Frameworks */,
+				D44CD74A27FC91C300C09F5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D44CD74E27FC91C300C09F5E /* PBXTargetDependency */,
+			);
+			name = Mantha_GroceryAppUITests;
+			productName = Mantha_GroceryAppUITests;
+			productReference = D44CD74C27FC91C300C09F5E /* Mantha_GroceryAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D44CD72427FC91C000C09F5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					D44CD72B27FC91C000C09F5E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					D44CD74127FC91C300C09F5E = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D44CD72B27FC91C000C09F5E;
+					};
+					D44CD74B27FC91C300C09F5E = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D44CD72B27FC91C000C09F5E;
+					};
+				};
+			};
+			buildConfigurationList = D44CD72727FC91C000C09F5E /* Build configuration list for PBXProject "Mantha_GroceryApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D44CD72327FC91C000C09F5E;
+			productRefGroup = D44CD72D27FC91C000C09F5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D44CD72B27FC91C000C09F5E /* Mantha_GroceryApp */,
+				D44CD74127FC91C300C09F5E /* Mantha_GroceryAppTests */,
+				D44CD74B27FC91C300C09F5E /* Mantha_GroceryAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D44CD72A27FC91C000C09F5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D44CD73C27FC91C200C09F5E /* LaunchScreen.storyboard in Resources */,
+				D44CD73927FC91C200C09F5E /* Assets.xcassets in Resources */,
+				D44CD73727FC91C000C09F5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D44CD74027FC91C300C09F5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D44CD74A27FC91C300C09F5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D44CD72827FC91C000C09F5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D44CD73427FC91C000C09F5E /* GrocerySectionsViewController.swift in Sources */,
+				D44CD76227FC99BF00C09F5E /* itemInfoViewController.swift in Sources */,
+				D44CD73027FC91C000C09F5E /* AppDelegate.swift in Sources */,
+				D44CD76027FC95DF00C09F5E /* GroceryItemsViewController.swift in Sources */,
+				D44CD73227FC91C000C09F5E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D44CD73E27FC91C300C09F5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D44CD74727FC91C300C09F5E /* Mantha_GroceryAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D44CD74827FC91C300C09F5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D44CD75127FC91C300C09F5E /* Mantha_GroceryAppUITests.swift in Sources */,
+				D44CD75327FC91C300C09F5E /* Mantha_GroceryAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D44CD74427FC91C300C09F5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D44CD72B27FC91C000C09F5E /* Mantha_GroceryApp */;
+			targetProxy = D44CD74327FC91C300C09F5E /* PBXContainerItemProxy */;
+		};
+		D44CD74E27FC91C300C09F5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D44CD72B27FC91C000C09F5E /* Mantha_GroceryApp */;
+			targetProxy = D44CD74D27FC91C300C09F5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D44CD73527FC91C000C09F5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D44CD73627FC91C000C09F5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D44CD73A27FC91C200C09F5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D44CD73B27FC91C200C09F5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D44CD75427FC91C300C09F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D44CD75527FC91C300C09F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D44CD75727FC91C300C09F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mantha_GroceryApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Mantha_GroceryApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NWMSU.Mantha-GroceryApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D44CD75827FC91C300C09F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mantha_GroceryApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Mantha_GroceryApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NWMSU.Mantha-GroceryApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D44CD75A27FC91C300C09F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NWMSU.Mantha-GroceryAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mantha_GroceryApp.app/Mantha_GroceryApp";
+			};
+			name = Debug;
+		};
+		D44CD75B27FC91C300C09F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NWMSU.Mantha-GroceryAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mantha_GroceryApp.app/Mantha_GroceryApp";
+			};
+			name = Release;
+		};
+		D44CD75D27FC91C300C09F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NWMSU.Mantha-GroceryAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mantha_GroceryApp;
+			};
+			name = Debug;
+		};
+		D44CD75E27FC91C300C09F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NWMSU.Mantha-GroceryAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mantha_GroceryApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D44CD72727FC91C000C09F5E /* Build configuration list for PBXProject "Mantha_GroceryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D44CD75427FC91C300C09F5E /* Debug */,
+				D44CD75527FC91C300C09F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D44CD75627FC91C300C09F5E /* Build configuration list for PBXNativeTarget "Mantha_GroceryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D44CD75727FC91C300C09F5E /* Debug */,
+				D44CD75827FC91C300C09F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D44CD75927FC91C300C09F5E /* Build configuration list for PBXNativeTarget "Mantha_GroceryAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D44CD75A27FC91C300C09F5E /* Debug */,
+				D44CD75B27FC91C300C09F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D44CD75C27FC91C300C09F5E /* Build configuration list for PBXNativeTarget "Mantha_GroceryAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D44CD75D27FC91C300C09F5E /* Debug */,
+				D44CD75E27FC91C300C09F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D44CD72427FC91C000C09F5E /* Project object */;
+}
